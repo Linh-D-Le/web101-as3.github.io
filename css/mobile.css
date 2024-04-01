@@ -1,0 +1,72 @@
+/* RESPONSIVE SCREEN FO MOBILE  */
+@media (max-width: 768px)  {
+/* NAV-BAR */
+  #nav-bar {
+    padding: 20px;
+  }
+  #nav-bar .spacing {
+    padding: 0;
+    border: none;
+  }
+
+  #nav-bar .spacing:nth-child(4) {
+    border-left: none;
+  }
+
+  /* JOB-INFO */
+  #job-info .container {
+    display: flex;
+  }
+
+  /* CERTIFICATE */
+  #certificate .container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  /* CHANGE VERTICAL LINE TO HORIZONTAL LINE */
+  #certificate .section-content {
+    position: relative;
+  }
+
+  #certificate .container::after {
+    display: none;
+  }
+
+  #certificate .section-content::after {
+    content: '';
+    position: absolute;
+    width: 80vw;
+    height: 1px;
+    background-color: var(--now-color);
+    bottom: 0;
+    left: -40%;
+    right: 0;
+  }
+
+  #certificate .section-content:nth-child(2)::after {
+    width: 80vw;
+    height: 1px;
+    top: 100%;
+    left: -40%;
+    right: 0;
+  }
+
+  /* PROJECTS */
+  #project {
+    padding: 30px;
+  }
+  #project .container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    row-gap: 50px;
+    grid-template-columns: 1fr;
+  }
+
+  #project .card {
+    width: 80vw;
+  }
+
+
+}

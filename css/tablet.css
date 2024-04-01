@@ -1,0 +1,144 @@
+/* RESPONSIVE SCREEN FO TABLET  */
+@media (max-width: 991.98px) {
+  /* HIDDING AVATAR */
+  .avatar-container {
+    display: none;
+  }
+
+  #nav-bar .spacing:nth-child(4) {
+    border-left: 2px ridge bisque;
+  }
+
+  #nav-bar i {
+    font-size: 18px;
+  }
+
+  #nav-bar a {
+    font-size: 16px;
+  }
+
+  /* SETTING ORDER DISPLAY OF CARDS */
+  #md-order-1 {
+    order: 1;
+    grid-row: span 2;
+  }
+
+  #md-order-2 {
+    order: 2;
+    grid-row: span 1;
+  }
+
+  #md-order-3 {
+    order: 3;
+    grid-row: span 2;
+  }
+
+  #md-order-4 {
+    order: 4;
+    grid-row: span 2;
+  }
+
+  #md-order-5 {
+    order: 5;
+    grid-row: span 2;
+  }
+
+  #md-order-6 {
+    order: 6;
+    grid-row: span 3;
+  }
+
+  /* RESET PADDING FOR CONTAINER */
+  /* .container {
+    min-width: 100vw;
+  } */
+
+  /* JOB-INFO */
+  #job-info .grid-layout {
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  /* CERTIFICATE */
+  #certificate .certificate-img {
+    width: 35vw;
+  }
+
+  /* PROJECTS */
+  #project .card {
+    width: 250px;
+  }
+
+  #project .grid-layout {
+    justify-items: center;
+    align-items: center;
+    padding: 30px 20px;
+    gap: 0;
+  }
+
+  #project .project-name {
+    font-size: 14px;
+  }
+
+  /* DIGITAL CV */
+  #digital-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #goals {
+    order: -1;
+  }
+
+  #scopes {
+    order: 0;
+  }
+
+  #team {
+    order: 1;
+  }
+
+  #primary {
+    order: 2;
+  }
+
+  #timeline {
+    order: 3;
+  }
+
+  /* REORGINIZE THE CONTENT */
+  #digital-container .content {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  #digital-body .solid-line {
+    border-bottom: 1px solid grey;
+    padding-bottom: 0;
+    padding-top: 30px;
+  }
+
+  /* SCOPES */
+  #scopes .content {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  #team .info-column {
+    align-self: flex-start;
+  }
+
+  /* TIMELINE */
+  #timeline .content{
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  #digital-body .dotted-line {
+    width: 100%;
+  }
+}
+
